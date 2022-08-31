@@ -8,4 +8,4 @@ Repository to hold *some* of my personal coding projects as a demostration to em
 # Price Tracker Database Project:
 
 
-Languages used: JavaScript, React, HTML, CSS
+Languages used: Python, MySQL
