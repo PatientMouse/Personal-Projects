@@ -8,7 +8,6 @@ from requestLib.KucoinMarket import KucoinMarket
 
 # https://min-api.cryptocompare.com/data/v2/pair/mapping/fsym?fsym=BTC&extraParams=YourSite
 # https://min-api.cryptocompare.com/data/v2/pair/mapping/fsym?fsym=XRP
-
 # https://min-api.cryptocompare.com/data/pricemultifull?e=Kraken&fsyms=DUSK&tsyms=ETH
 
 def getCoins2File(url, filename):
@@ -75,7 +74,7 @@ if __name__ == '__main__':
 
     headers = {
         'x-rapidapi-host': "crypto-arbitrage.p.rapidapi.com",
-        'x-rapidapi-key': "07de582aa5msh3356fc881d17332p13424djsn02f21d37283b"
+        'x-rapidapi-key': "x"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)

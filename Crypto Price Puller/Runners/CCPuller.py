@@ -51,17 +51,17 @@ maxMarket = "yeee"
 
 for x in markets:
 
-    yeet = fetchPriceData(coin, SYM, x, False)
-    if(yeet != None):
-        print(yeet)
+    fetchData = fetchPriceData(coin, SYM, x, False)
+    if(fetchData != None):
+        print(fetchData)
     try:
-        if yeet.price > maxValue:
-            maxValue = yeet.price
-            maxMarket = yeet.marketName
-        if yeet.price < minValue:
-            minValue = yeet.price
-            minMarket = yeet.marketName
-        arr.append(yeet)
+        if fetchData.price > maxValue:
+            maxValue = fetchData.price
+            maxMarket = fetchData.marketName
+        if fetchData.price < minValue:
+            minValue = fetchData.price
+            minMarket = fetchData.marketName
+        arr.append(fetchData)
     except:
         pass
 
