@@ -1,0 +1,40 @@
+
+//        {
+//           "Name": "",
+//           "Home_URL": "",
+//           "API_URL": ""
+//           "allCoinsCall": ""
+//           "buyURL": ""
+//           "sellURL": ""
+//           "bidURL": ""
+//           "askURL": ""
+//        },
+
+{
+    "markets":[
+        {
+           "Name": "CoinBase",
+           "Home_URL": "https://www.coinbase.com/",
+           "API_URL": "https://developers.coinbase.com/api/v2"
+           "allCoinsCall_URL": "https://api.coinbase.com/v2/currencies"
+           "getCoinPriceCall_URL": ""
+        },
+        {
+           "Name": "Kraken",
+           "Home_URL": "https://www.kraken.com/",
+           "API_URL": "https://docs.kraken.com/rest/"
+           "allCoinsCall_URL": "https://api.kraken.com/0/public/AssetPairs?"
+           "getCoinPriceCall_URL": "https://api.kraken.com/0/public/Ticker?pair="
+        },
+        {
+           "Name": "Crypto.com",
+           "Home_URL": "https://crypto.com/us/",
+           "API_URL": "https://exchange-docs.crypto.com/spot/"
+           "allCoinsCall_URL": "https://api.crypto.com/v2/public/get-ticker?"
+           "getCoinPriceCall_URL": "https://api.crypto.com/v2/public/get-ticker?instrument_name=REP"
+        }
+
+              ]
+}
+
+

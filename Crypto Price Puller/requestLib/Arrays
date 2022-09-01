@@ -1,0 +1,7 @@
+{
+    "Markets":[
+    {
+    "Name": 'Kraken'
+    "Array": ['ABCC', 'Bibox', 'Binance', 'BitTrex', 'Exmo', 'LiveCoin', 'bkex', 'coinsuper', 'ataix', 'aax', 'sistemkoin', 'Yobit', 'OKEX', 'Kucoin', 'TradeSatoshi', 'Upbit', 'BitMart', 'RightBTC', 'OKCoin', 'OpenLedger', 'FCoin', 'HitBTC', 'Gatecoin', 'IDAX', 'Nexchange', 'CoinHub', 'Bitsane', 'CoinPulse', 'xbtpro', 'Bitforex', 'CoinTiger', 'DigiFinex', 'Catex', 'CBX', 'bw', 'bitmax', 'Ironex', 'coss', 'gopax', 'crex24', 'coinzest', 'etoro', 'bequant', 'bhex', 'DSX', 'Kraken', 'LBank', 'LAToken', 'tokok', 'bitcoincom', 'btse', 'BitBay', 'nominex']
+    }
+}
