@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     headers = {
         'x-rapidapi-host': "crypto-arbitrage.p.rapidapi.com",
-        'x-rapidapi-key': "x"
+        #'x-rapidapi-key': "x"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
