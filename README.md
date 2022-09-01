@@ -1,2 +1,11 @@
-# Personal-Projects
-This is repo to hold my personal projects. They are not able to be run as is, as I have only included the main files for code demonstration.
+## Andrew Gerber
+
+# Personal Projects
+
+Repository to hold my personal coding projects as a demostration to employers of skills not used during my education.
+
+
+# Price Tracker Database Project:
+
+
+Languages used: Python, MySQL
