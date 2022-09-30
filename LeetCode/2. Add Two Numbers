@@ -1,0 +1,30 @@
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        l1List = []
+        l2List = []
+        current = l1
+        l1Num = ""
+        l2Num = ""
+        while current:
+            l1List.append(current.val)
+            current = current.next
+        current = l2
+        while current:
+            l2List.append(current.val)
+            current = current.next
+        l1List.reverse()
+        for x in l1List:
+            l1Num = l1Num + str(x)
+        l2List.reverse()
+        for x in l2List:
+            l2Num = l2Num + str(x)
+        finalNum = int(l1Num) + int(l2Num)
+
+        finalList = [int(x) for x in str(finalNum)]
+        last = None
+        node = None
+        for x in finalList:
+            node = ListNode(x, last)
+            last = node
+        print(finalNum)
+        return last
