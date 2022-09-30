@@ -1,0 +1,33 @@
+class Solution:
+    def findOriginalArray(self, changed: List[int]) -> List[int]:
+        if (len(changed) % 2) != 0:
+            return []
+        else:
+            hash = {}
+
+            org = []
+            nummys = changed.count(0)
+            if nummys % 2 == 0 and nummys >= 1:
+                changed = list(filter((0).__ne__, changed))
+                for y in range(int(nummys / 2)):
+                    org.append(0)
+            elif nummys > 0:
+                return []
+            for i in range(len(changed)):
+                if changed[i] in hash:
+                    hash[changed[i]] += 1
+                else:
+                    hash[changed[i]] = 1
+            changed.sort()
+            for i in range(len(changed)):
+                changed[i] = changed[i]
+                freq = hash[changed[i]]
+                num2 = changed[i] * 2
+                if freq>0 and num2 in hash:
+                    org.append(changed[i])
+                    hash[changed[i]] -= 1
+                    hash[num2] -= 1
+            for i in range(len(changed)):
+                if hash[changed[i]] != 0:
+                    return []
+            return org
