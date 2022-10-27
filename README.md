@@ -7,7 +7,7 @@ Repository to hold my personal coding projects as a demonstration to employers o
 
 # Price Tracker Database Project:
 
-For this weekend project, I build a simple looping database integrated python price database. Its purpose is to give users the ability to store simple prices for an item and be able to view the history of the prices over time. It is built so that one can add any amount more database entries the user would like to track. It is built off of local MySQL server access with root privlages. 
+For this weekend project, I build a simple looping database integrated python price database. Its purpose is to give users the ability to store simple prices for an item and be able to view the history of the prices over time. It is built so that one can add any amount more database entries the user would like to track. It is built off of local MySQL server access with root privileges. 
 
 Languages used: Python, MySQL
 
